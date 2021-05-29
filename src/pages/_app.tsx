@@ -3,7 +3,8 @@ import { GlobalProvider, SearchProvider } from "../context";
 import { Fragment } from "react";
 import Layout from "../components/layout";
 import NavBar from "../components/ui/NavBar";
-import "tailwindcss/tailwind.css";
+import "../styles/globals.css";
+// import "tailwindcss/tailwind.css";
 
 function ViAerial({ Component, pageProps }: AppProps) {
   const navlinks = [

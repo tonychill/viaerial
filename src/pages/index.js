@@ -11,11 +11,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
+      <main className="w-full">
+        <h1 className="m-auto">
           Welcome to <a href="https://nextjs.org">VI Aerial Solutions!</a>
         </h1>
-        <img src="https://i0.wp.com/viaerialsolutions.com/wp-content/uploads/2020/04/DJI_0013-2-scaled.jpg?w=2340&ssl=1" />
+        <img className="w-full" src="https://i0.wp.com/viaerialsolutions.com/wp-content/uploads/2020/04/DJI_0013-2-scaled.jpg?w=2340&ssl=1" />
       </main>
 
       <footer className={styles.footer}>Footer Section</footer>
