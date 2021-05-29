@@ -1,0 +1,10 @@
+.root {
+  display: block;
+}
+.marker {
+  top: -52px;
+  left: -52px;
+  position: absolute;
+  height: 52px;
+  width: 52px;
+}
